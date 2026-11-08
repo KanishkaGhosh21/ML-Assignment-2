@@ -23,9 +23,7 @@ Because there are 4 classes, Precision, Recall and F1 are weighted averages, and
 
 ## c. Github Repository Link
 
-Add the link here after the repository is created:
-
-ToDo
+Link: https://github.com/KanishkaGhosh21/ML-Assignment-2
 
 ## d. Models used
 
@@ -75,6 +73,8 @@ The full baseline table is in `model/metrics_baseline.csv` and the final one in 
 | Overall, Winner for your dataset? | Logistic Regression. It has the best Accuracy, Precision, Recall, F1 and MCC, and ties with SVM on AUC (0.9994). Linear SVM is effectively equal, which makes sense since both learn linear boundaries. Tuning mattered more than data cleaning: feature selection fixed KNN (+40 points), and choosing the right C and kernel lifted SVM by 7.5 points. Naive Bayes is last after tuning because its independence assumption does not fit this data. |
 
 ## Streamlit app
+
+Link: https://2026ak05122-ml-assignment-2-vcw8yg8upjucuwxmnytgeu.streamlit.app/
 
 `app.py` loads the five saved models from `model/` and scores an uploaded CSV. Nothing is retrained in the app.
 
